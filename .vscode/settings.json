@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "/Users/k21095kk/.pyenv/versions/3.10.4/lib/python3.10/site-packages",
+        "./login_function"
+    ]
+}
