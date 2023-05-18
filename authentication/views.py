@@ -12,8 +12,9 @@ from django.template.loader import render_to_string
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.utils.encoding import force_bytes, force_text
 
-from login_function.info import EMAIL_HOST_USER_ADDRESS
 from .tokens import generate_token
+
+from login_function.settings import EMAIL_HOST_USER_ADDRESS
 
 
 # Create your views here.
